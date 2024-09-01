@@ -1,7 +1,7 @@
 from PIL import Image
 
-image = "WSA_LngSP9258468"
-cell = ['gdT', 'CD4_EM_Effector', 'CD8_EM']
+image = "Tissue"
+cell = ['luminal epithelial cell of mammary gland', 'fibroblast', 'pericyte']
 # 加载图片
 img1 = Image.open('C:/Users/qq135/Desktop/Hist2/' + image + '/' + cell[0] + '.jpg')
 size = img1.size
